@@ -1,0 +1,44 @@
+{
+    "editor.fontSize": 14,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000, // every 1 second file is saved!
+    "editor.cursorWidth": 3,
+    "editor.codeLens": false,
+    "editor.wordWrapColumn": 100,
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "workbench.startupEditor": "none",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "editor.wordWrap": "on",
+    "terminal.integrated.fontSize": 13, // terminal font-size cool
+    "breadcrumbs.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.cursorBlinking": "expand",
+    "workbench.colorTheme": "Theme + Dark Blue Theme",
+    "mssql.connections": [
+        {
+            "connectionString": "Server=localhost\\SQLEXPRESS01;Database=pubs Trusted_Connection=True;",
+            "profileName": "PUBS",
+            "database": "pubs",
+            "user": "",
+            "server": "localhost\\SQLEXPRESS01",
+            "authenticationType": "Integrated",
+            "password": ""
+        }
+    ],
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "php.validate.executablePath": "",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+
+}
